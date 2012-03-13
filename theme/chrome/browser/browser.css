@@ -570,9 +570,9 @@ toolbar[mode="full"] .toolbarbutton-1 > .toolbarbutton-menubutton-button {
 #navigator-toolbox[iconsize=large][mode=icons] > #nav-bar #back-button > .toolbarbutton-icon {
 
   -moz-appearance: none;
-  padding: 3px 7px;
+  padding: 4px 7px;
   background-clip: padding-box;
-  border-radius: 5px 0 0 5px;
+  border-radius: 3px 0 0 3px;
   color: black;
   opacity: 1;
   text-shadow: 0 0 2px white;
@@ -590,9 +590,9 @@ margin-right: -21px;
 
 #navigator-toolbox[iconsize=large][mode=icons] > #nav-bar #forward-button > .toolbarbutton-icon{
     -moz-appearance: none;
-  padding: 3px 7px;
+  padding: 4px 7px;
   background-clip: padding-box;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 3px 3px 0;
   color: black;
   opacity: 1;
   text-shadow: 0 0 2px white;
@@ -615,7 +615,7 @@ margin-right: -21px;
 }
 #back-button[disabled="true"] {
   list-style-image: url("chrome://browser/skin/back-button.svg");
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 #back-button:-moz-locale-dir(rtl) {
@@ -636,7 +636,7 @@ margin-right: -21px;
 }
 
 #forward-button[disabled] {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 #forward-button[disabled]:-moz-locale-dir(rtl) {
   opacity: 0.5;
@@ -654,28 +654,14 @@ margin-right: -21px;
 
 #reload-button {
   list-style-image: url("chrome://browser/skin/refresh.svg");
-      -moz-appearance: none;
-  padding: 3px 7px;
-  background-clip: padding-box;
-  border-radius: 0 5px 5px 0;
-  color: black;
-  opacity: 1;
-  text-shadow: 0 0 2px white;
-  background-image: -moz-linear-gradient(rgba(255,255,255,.7),  #e1e1e1);
-  -moz-transition-property: background-color, border-color, box-shadow;
-  -moz-transition-duration: 150ms;
-  -moz-transition-timing-function: ease;
-  border: 1px solid;
-  border-color: rgba(0,0,0,.35);
-  box-shadow: 0 1px 0 white inset,
-              0 1px rgba(255,255,255,.10),
-              0 0 0 1px hsla(0,0%,100%,.27) inset;
-	margin-right: -4px;
+  opacity: 0.3;
+
 }
 }
 #reload-button[disabled="true"] {
-  opacity: 0.5;
+  opacity: 0.3;
 }
+
 
 #stop-button {
   list-style-image: url("chrome://browser/skin/stop.svg");
