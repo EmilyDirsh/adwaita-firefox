@@ -32,21 +32,23 @@
 }
 
 #navigator-toolbox > toolbar:not(#toolbar-menubar):not(#TabsToolbar) {
-  background: -moz-linear-gradient(top, #ababa0, #bbbbb3 13%, #d8d8d6 92%, #e2e2df);
+/*  background: -moz-linear-gradient(top, #ababa0, #bbbbb3 13%, #d8d8d6 92%, #e2e2df);*/
 }
 
 #navigator-toolbox[tabsontop=false] > toolbar:not(#toolbar-menubar):not(#TabsToolbar) {
-  border-bottom: 1px solid #cececd;
+/*  border-bottom: 1px solid #cececd;*/
 }
 
 #navigator-toolbox[tabsontop=false] > #nav-bar {
-  border-top: 1px solid #90908c !important;
+  background: -moz-linear-gradient(top, #efefef, #EDEDED) !important;
+  border-top:0!important ;
+  border-bottom:0!important ;
 }
 
 #navigator-toolbox[tabsontop=true] > #nav-bar
 {
   background: -moz-linear-gradient(top, #fff, #f3f3f3) !important;
-  box-shadow: 0 -1px 0 #a6a6a6 inset;
+  box-shadow: 0 -1px 0 #a6a6a6 inset!important;
 }
 
 /* Restyle bookmark bars -- tabs on top */
@@ -994,7 +996,8 @@ toolbar[iconsize="small"] #feed-button {
 }
 
 .urlbar-history-dropmarker {
-  -moz-appearance: toolbarbutton-dropdown;
+/*  -moz-appearance: toolbarbutton-dropdown;*/
+	display: none;
 }
 
 #urlbar-container {
@@ -1409,7 +1412,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   padding: 0;
   border: none;
   cursor: pointer;
-  width: 22px;
+  width: 25px;
 }
 
 #go-button,
