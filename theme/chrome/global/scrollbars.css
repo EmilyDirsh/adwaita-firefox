@@ -201,7 +201,7 @@ scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"][disabled="true"
     background: url("chrome://global/skin/scrollbar/slider.gif") scrollbar;
   }
 
-  html|div scrollbar[orient="vertical"]
+  html|div scrollbar[orient="vertical"] 
   {
      -moz-appearance: scrollbartrack-vertical;
   }
