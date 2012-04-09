@@ -1414,20 +1414,17 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   list-style-image: url("chrome://browser/skin/Go-arrow.png");
 }
 
-#urlbar-go-button {
-}
-
 #go-button:-moz-locale-dir(rtl) > .toolbarbutton-icon,
 #urlbar-go-button:-moz-locale-dir(rtl) > .toolbarbutton-icon {
   -moz-transform: scaleX(-1);
 }
 
 #urlbar-reload-button {
-  list-style-image: url("chrome://browser/skin/symbolic/view-refresh-symbolic.svg");
+  list-style-image: url("chrome://browser/skin/symbolic/refresh.svg");
 }
 
 #urlbar-stop-button {
-  list-style-image: url("chrome://browser/skin/symbolic/process-stop-symbolic.svg");
+  list-style-image: url("chrome://browser/skin/symbolic/stop.svg");
 }
 
 #urlbar-go-button,
@@ -1447,12 +1444,12 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 /* Star button */
 #star-button {
   padding: 1px;
-  list-style-image: url("chrome://browser/skin/symbolic/bookmark-new-symbolic.svg");
+  list-style-image: url("chrome://browser/skin/symbolic/add-bookamrk.svg");
   opacity: 0.5;
 }
 
 #star-button[starred="true"] {
-  list-style-image: url("chrome://browser/skin/symbolic/bookmark-saved-symbolic.svg");
+  list-style-image: url("chrome://browser/skin/symbolic/added-bookmark.svg");
   opacity: 0.7;
 }
 
