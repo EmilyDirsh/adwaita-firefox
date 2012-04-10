@@ -393,7 +393,7 @@ menuitem:not([type]):not(.menuitem-tooltip):not(.menuitem-iconic-tooltip) {
 #placesContext_reload,
 #context-reload,
 #context-reloadframe {
-  list-style-image: url("chrome://browser/skin/symbolic/view-refresh-symbolic.svg");
+  list-style-image: url("chrome://browser/skin/symbolic/refresh.svg");
 }
 
 #menu_reload[disabled],
@@ -565,6 +565,7 @@ toolbar[mode="full"] .toolbarbutton-1 > .toolbarbutton-menubutton-button {
   -moz-padding-start:1px !important;
   -moz-padding-end: 2px!important;
 }
+
 #navigator-toolbox[iconsize=large][mode=icons] > #nav-bar #back-button > .toolbarbutton-icon {
 
   -moz-appearance: none;
@@ -623,7 +624,7 @@ margin-right: -21px;
 }
 
 #back-button[disabled="true"]:-moz-locale-dir(rtl) {
-
+  list-style-image: url("moz-icon://stock/gtk-go-back-rtl?size=toolbar&state=disabled");
 }
 
 #forward-button {
