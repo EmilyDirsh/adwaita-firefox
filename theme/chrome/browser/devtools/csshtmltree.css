@@ -63,6 +63,9 @@
 .helplink:visited {
   text-decoration: none;
 }
+.link:hover {
+  text-decoration: underline;
+}
 
 .helplink {
   height: 14px;
